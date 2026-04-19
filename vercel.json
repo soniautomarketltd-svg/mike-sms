@@ -1,7 +1,7 @@
 {
-    "rewrites": [
-          { "source": "/api/health",      "destination": "/api/sms" },
-          { "source": "/api/sms-send",    "destination": "/api/sms" },
-          { "source": "/api/end-of-call", "destination": "/api/sms" }
-    ]
+  "rewrites": [
+    { "source": "/api/health",      "destination": "/api/index" },
+    { "source": "/api/sms-send",    "destination": "/api/index" },
+    { "source": "/api/end-of-call", "destination": "/api/index" }
+  ]
 }
